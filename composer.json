@@ -1,0 +1,24 @@
+{
+    "name": "babrica/practic_3",
+    "description": "misha",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Babrica",
+            "email": "mixsaywerri@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+
+}
