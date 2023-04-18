@@ -9,6 +9,7 @@ class Application
     private Settings $settings;
     private Route $route;
 
+
     public function __construct(Settings $settings)
     {
         $this->settings = $settings;
@@ -27,6 +28,5 @@ class Application
     {
         $this->route->setPrefix($this->settings->getRootPath());
         $this->route->start();
-
     }
 }
